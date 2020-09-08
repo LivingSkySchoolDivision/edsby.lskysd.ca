@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8"/>
 		<meta http-equiv="cache-control" content="max-age=0" />
 		<meta http-equiv="cache-control" content="no-cache" />
 		<meta http-equiv="expires" content="0" />
@@ -7,104 +9,43 @@
 		<meta http-equiv="pragma" content="no-cache" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="Stylesheet" type="text/css" href="styles.css">
+		<link rel="Stylesheet" type="text/css" href="css/styles.css">
 		<title>Edsby Shortcuts</title>
 	</head>
 	<body>
 		<div class="page_container">
             <div>
-                <img class="lssd_logo" src="LSSDLogo.svg">
-                <img src="edsby_portal.jpg">
-            </div>		
-
-			<div class="section_container">
-
-				<div class="environment">
-					<div class="environment_title">For Students</div>
-					<div class="environment_content" style="display: flex; justify-content: center;flex-wrap: wrap;">
-
-						<div class="environment_button">
-							<a href="https://lssd.edsby.com/core/node.json/11678250?xds=launchauthintegration&integration=office365_default"><img src="browser.svg"><br/>Web Browser Login</a><br>(Click <b>Login with Microsoft</b>)
-						</div>
-
-						<div class="environment_button">
-							<a href="https://www.edsby.com/help/students/student-browser-quickstart/"><img src="quickstart.svg"><br/>Student Quick Start Guide</a>
-						</div>
-
-						<div class="environment_button">
-							<a href="https://www.edsby.com/help/students/"><img src="documentation.svg"><br/>Student Help & Documentation</a>
-						</div>
-
-						<div class="environment_button">
-							<a href="https://play.google.com/store/apps/details?id=com.corefour.edsby&hl=en_CA"><img src="android.svg"><br/>Android App</a>
-						</div>
-						
-						<div class="environment_button">
-							<a href="https://apps.apple.com/ca/app/edsby/id548642814"><img src="apple.svg"><br/>iPhone/iPad App</a>
-						</div>
-					</div>
-				</div>
-				<br/><br/>
-
-				<div class="environment">
-					<div class="environment_title">For Parents</div>
-					<div class="environment_content" style="display: flex; justify-content: center;flex-wrap: wrap;">
-
-						<div class="environment_button">
-							<a href="https://lssd.edsby.com"><img src="browser.svg"><br/>Web Browser Login</a>
-						</div>
-
-						<div class="environment_button">
-							<a href="https://www.edsby.com/help/parents/parent-quickstart/"><img src="quickstart.svg"><br/>Parent Quick Start Guide</a>
-						</div>
-
-						<div class="environment_button">
-							<a href="https://www.edsby.com/help/parents/"><img src="documentation.svg"><br/>Parent Help & Documentation</a>
-						</div>
-
-						<div class="environment_button">
-							<a href="https://play.google.com/store/apps/details?id=com.corefour.edsby&hl=en_CA"><img src="android.svg"><br/>Android App</a>
-						</div>
-
-						<div class="environment_button">
-							<a href="https://apps.apple.com/ca/app/edsby/id548642814"><img src="apple.svg"><br/>iPhone/iPad App</a>
-						</div>
-					</div>
-				</div>
-				<br/><br/>
-
-				<div class="environment">
-					<div class="environment_title">For Teachers</div>
-					<div class="environment_content" style="display: flex; justify-content: center;flex-wrap: wrap;">
-						
-						<div class="environment_button">
-							<a href="https://lssd.edsby.com/core/node.json/11678250?xds=launchauthintegration&integration=office365_default"><img src="browser.svg"><br/>Web Browser Login</a><br>(Click <b>Login with Microsoft</b>)
-						</div>
-
-						<div class="environment_button">
-							<a href="https://www.edsby.com/help/teachers/a-guide-for-teachers/"><img src="quickstart.svg"><br/>Teacher Quick Start Guide</a>
-						</div>
-
-						<div class="environment_button">
-							<a href="https://www.edsby.com/help/teachers/"><img src="documentation.svg"><br/>Teacher Help & Documentation</a>
-						</div>
-
-						<div class="environment_button">
-							<a href="https://play.google.com/store/apps/details?id=com.corefour.edsby&hl=en_CA"><img src="android.svg"><br/>Android App</a>
-						</div>
-						
-						<div class="environment_button">
-							<a href="https://apps.apple.com/ca/app/edsby/id548642814"><img src="apple.svg"><br/>iPhone/iPad App</a>
-						</div>
-
+                <img class="lssd_logo" src="img/LSSDLogo.svg">
+                <img src="img/edsby_portal.jpg">
+			</div>
+			
+			<div class="hidden_on_small_screens">
+				<h1>Living Sky School Division No 202</h1>
+				<h2>Edsby link page: Students</h2>
+				<br/>
+			</div>
+			<hr noshade>
+				<div class="environment_selector_area" style="text-align: center;">				
+					<div class="environment_selector_button">
+						<a href="students.html">
+							<img src="img/chalkboard-teacher.svg"><br/><b>Students</b>
+						</a>
+					</div>				
+					<div class="environment_selector_button">
+						<a href="teachers.html">
+							<img src="img/users-class.svg"><br/><b>Teachers</b>
+						</a>
+					</div>				
+					<div class="environment_selector_button">
+						<a href="parents.html">
+							<img src="img/user-friends.svg"><br/><b>Parents</b>
+						</a>
 					</div>
 				</div>
 
-				
+			<hr noshade>
 
-				<br/><br/>
-				<br/><br/>
-				<br/><br/>
+
 			</div>
 		</div> <!-- page container -->
 	</body>
